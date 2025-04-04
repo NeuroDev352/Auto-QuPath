@@ -15,7 +15,7 @@ double downsample = 8.0  // Adjust this to control resolution
 int padding = 100        // Padding in exported image (at export resolution)
 
 // Output folder
-def exportDir = new File("C:\\Users\\khoro\\OneDrive\\Documents\\CTRND\\Brains\\MSA 1 Test\\Exported Images\\2g5 Q277.2 Br MSA 1 cer 4mpi 2")
+def exportDir = new File("C:\\")
 exportDir.mkdirs()
 
 def imageData = getCurrentImageData()
